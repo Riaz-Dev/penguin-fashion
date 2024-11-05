@@ -31,6 +31,7 @@ ul {
 
 header {
     background-color: #FFFBF0;
+    padding-top: 2%;
 }
 
 .hd-full {
@@ -70,4 +71,110 @@ header {
     display: flex;
     flex-direction: column;
     width: 50%;
+}
+
+/* main seation start */
+
+.item-1 img {
+    width: 285px;
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    padding: 15px;
+}
+.ladies-jackets {
+    display: flex;
+    column-gap: 30px;
+}
+.main-full h1 {
+    width: 225px;
+    height: 58px;
+    font-weight: 400;
+}
+.ladies-jackets h2 {
+    width: 260px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.ladies-jackets p {
+    width: 299px;
+    font-size: 16;
+    font-weight: 400;
+    color: #3E3E3E;
+}
+.span-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.span-btn span {
+    width: 84px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #FABE4C;
+}
+.span-btn a {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+/* footer seation start */
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+.footer img {
+    width: 70px;
+    height: 76px;
+}
+.shopping-img img {
+    width: 500px;
+    margin-left: 8%;
+}
+.full-footer {
+    display: flex;
+    margin: 10% 0;
+    column-gap: 30px;
+}
+.house {
+    display: flex;
+    column-gap: 30px;
+    background-color: #0000000D;
+    margin-bottom: 10px;
+    padding: 10px 50px 5px 10px;
+    border-radius: 20px;
+}
+.box {
+    display: flex;
+    column-gap: 30px;
+    background-color: #0000000D;
+    margin-bottom: 10px;
+    padding: 10px 50px 5px 10px;
+    border-radius: 20px;
+}
+.question {
+    display: flex;
+    column-gap: 30px;
+    background-color: #0000000D;
+    margin-bottom: 10px;
+    padding: 10px 50px 5px 10px;
+    border-radius: 20px;
+}
+.footer h2 {
+    width: 206px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer p {
+    width: 276px;
+    font-size: 16px;
+    color: #3E3E3E;
+}
+.list h2 {
+    margin: 0;
 }
